@@ -11,8 +11,7 @@ body {
 	padding: 0;
 }
 .back {
-    background: url("image/hero-bg.jpg") center no-repeat fixed;
-    -webkit-background-size: cover;
+    background: url("image/hero-bg.jpg") no-repeat center center fixed;
     background-size: cover;
 }
 /*.logo {
@@ -22,7 +21,6 @@ body {
 	margin-top: 10px 0 0 10px;
 }*/
 .text {
-	display: block;
 	text-align: center;
 	justify-content: center;
 	margin: -5% 0 0 0;
@@ -33,8 +31,7 @@ body {
 .text-intro2 {
 	font-size: 75px;
 	color: #fff;
-	font-family: 'Montserrat', sans-serif;
-	user-select: none;  
+	font-family: 'Montserrat', sans-serif; 
 }
 .text-intro1 {
 	font-size: 20px;
@@ -42,7 +39,6 @@ body {
 	font-family: 'Montserrat', sans-serif;
 
 	margin-bottom: -40px;
-	user-select: none; 
 
 	text-shadow:
 		   0 0 5px #FFFFFF,
